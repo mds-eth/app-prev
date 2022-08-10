@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+:root {
+  --font-primary: "Source Sans Pro";
+  --color-black: #242525;
+  --color-white: #ffffff;
+  --color-grey: #949595;
+  --color-orange: #ff8853;
+  --color-blue: #3575ab;
+  --color-orange-any: #f26526;
+  --color-card-client: #1b77c5;
+  --color-card-count: #00a881;
+  --color-card-cases: #6838b7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+li,
+button {
+  cursor: pointer;
+}
+
+::placeholder {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-grey);
+}
+
+.ant-modal {
+  width: 550px !important;
+}
+
+.ant-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-pagination-item-active {
+  border-color: var(--color-orange) !important;
+}
+.ant-pagination-item-active a {
+  color: var(--color-orange) !important;
+}
