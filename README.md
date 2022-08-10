@@ -13,12 +13,6 @@ Teste frontend que tem como finalidade reproduzir uma tela de Login e Dashboard 
 
 ---
 
-## 🛠&nbsp; Deploy
-
-Deploy da aplicação realizado na netfly.
-
----
-
 ## 🛠 Tecnologias utilizadas
 
 As seguintes ferramentas foram usadas na construção do projeto:
